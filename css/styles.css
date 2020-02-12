@@ -87,6 +87,12 @@ body {
      font-family: 'Arimo', sans-serif;
      color: white;
      text-align: center;
-
      display: block;
+ }
+
+ .title-training {
+     font-size: 230%;
+     color: white;
+     display: inline;
+     text-align: center;
  }
