@@ -9,10 +9,11 @@ body {
     /* -moz-background-size: 100%; /* Firefox 3.6+ */
     /*-webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
     /*-o-background-size: 100%; /* Opera 9.6+ */
+    overflow:hidden;
  }
 
  /*   NAVIGATION   */
- #nav-main {
+ .nav-main {
      position: relative;
      background: linear-gradient(to top, rgba(0,0,0,0.0), rgba(0,0,0,0.5));
      margin: 0px;
@@ -30,6 +31,7 @@ body {
  }
  .nav-item {
      float: right;
+
  }
  .menu-main a {
     text-decoration: none;
@@ -42,10 +44,11 @@ body {
     font-weight: bold;
     color: white;
     transition: .15s ease-out;
+    border: 1px solid rgba(0,0,0,.0);
  }
  .menu-main a:hover {
      background: rgba(0,0,0,.3);
-     border: 0.2px solid white;
+     border: 1px solid white;
      border-radius: 5px;
  }
 
@@ -96,3 +99,42 @@ body {
      display: inline;
      text-align: center;
  }
+
+
+
+
+
+
+
+
+
+ .login-form {
+     margin-left: auto;
+     margin-right: auto;
+     width: 30em;
+ }
+ .text1 {
+     font-family: 'Arimo', sans-serif;
+     color:white;
+ }
+
+
+ .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited, .btn-primary:focus {
+     background-color: rgba(0,0,0,.2) !important;
+     border-color: white !important;
+ }
+ .btn-primary:hover {
+     background-color: rgba(0,0,0,.5) !important;
+     border: 1px solid white !important;
+     border-color: white !important;
+ }
+
+.my-button {
+    background-color: rgba(0,0,0,.5)
+    border-color: white;
+    color: white;
+}
+
+.centered{
+    text-align: center;
+}
