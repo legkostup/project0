@@ -12,6 +12,20 @@
             font-family: 'Arimo', sans-serif;
             color:white;
         }
+        #group-btn-train {
+            display: flex;
+            flex-direction: initial;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .item-btn-train {
+            border: 1px solid black;
+            margin: 5px;
+            /*width:100px;*/
+            color: white;
+            text-align: center;
+            flex-basis: 100px;
+        }
         </style>
     </head>
     <body>
@@ -24,20 +38,15 @@
                 <li class="nav-item"><a href="login.html">Log in</a></li>
             </ul>
         </nav>
-        <header class="title-training">Trainingggggggggggggggggggggggggggggggg</header>
-        <header class="title-training">Trainingggggggggggggggggggggggggggggggg</header>
+        <!--<header class="title-training">Training</header>-->
 
-        <section class="centered">
-            <div class="row justify-content-center">
-                <div class="col-md-auto"><button type="cards" class="btn btn-primary">Words</div>
-                <div class="col-md-auto"><button type="translations" class="btn btn-primary">Translations</button></div>
-                <div class="col-md-auto"><button type="sentenses" class="btn btn-primary">Sentenses</button></div>
-                <div class="col-md-auto"><button type="listening" class="btn btn-primary">Listening</button></div>
-                <div class="col-sm-auto"><button type="speech" class="btn btn-primary">Spech</button></div>
-                <div class="col-sm-auto"><button type="pictures" class="btn btn-primary">Pictures</button></div>
-                <div class="col-sm-auto"><button type="collecting" class="btn btn-primary">Collecting</button></div>
-            </div>
-        </section>
+        <div id="group-btn-train">
+            <button type="cards" class="btn btn-primary item-btn-train">Words</button>
+            <button type="translations" class="btn btn-primary item-btn-train">Translations</button>
+            <button type="sentenses" class="btn btn-primary item-btn-train">Sentenses</button>
+            <button type="speech" class="btn btn-primary item-btn-train">Spech</button>
+            <button type="all" class="btn btn-primary item-btn-train">All</button>
+        </div>
 
     </body>
 </html>
