@@ -1,3 +1,9 @@
+/*
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.eot');
+  src: url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.woff') format('woff'), url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}*/
 
 @import url('https://fonts.googleapis.com/css?family=Arimo');
 body {
@@ -108,6 +114,10 @@ body {
          flex-grow:1;
      }
 
+     .header-page {
+         font-size: 10em;
+     }
+
 }
 
 @media (max-height: 550px) {
@@ -126,12 +136,6 @@ body {
  text-align: center;
  display: block;
 }
-
-
-
-
-
-
 
 
 #page-content {
@@ -178,7 +182,7 @@ body {
     color: white;
 }
 
-.centered{
+.centered {
     text-align: center;
     margin: 19px;
 }
@@ -231,9 +235,27 @@ body {
       text-align: center;
       max-width:200px;
       overflow:hidden;
+      cursor: pointer;
+  }
+
+  .lists-name:hover {
+      color: gray;
   }
 
  .lists-edit {
      text-align: center;
      width: 40px;
  }
+
+
+.btn-png {
+    width: 15px;
+    height: 15px;
+    padding-bottom: 2px;
+    -webkit-filter: invert(100%);
+    cursor: pointer;
+}
+
+.btn-png:hover {
+    -webkit-filter: invert(60%);
+}
